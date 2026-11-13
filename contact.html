@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Contact Hope Mosweu, a Business Intelligence and Data Analytics student based in Gaborone, Botswana.">
+    <title>Contact | Hope Mosweu</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+
+<!-- HEADER AND NAVIGATION -->
+<header class="header">
+    <nav class="navbar container">
+
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Hope Mosweu logo">
+        </a>
+
+        <button class="menu-toggle" aria-label="Toggle menu" aria-expanded="false">
+            ☰
+        </button>
+
+        <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a class="active" href="contact.html">Contact</a></li>
+            <li>
+                <a class="nav-button" href="assets/Hope_Mosweu_CV.pdf" download>
+                    Download CV ↓
+                </a>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+
+<!-- MAIN CONTENT -->
+<main>
+
+    <!-- PAGE INTRODUCTION -->
+    <section class="page-heading">
+        <div class="container">
+
+            <p class="eyebrow">GET IN TOUCH</p>
+
+            <h1>
+                Let's start a
+                <span class="gradient-text">conversation.</span>
+            </h1>
+
+            <p>
+                I am open to professional connections, attachment
+                opportunities, collaborations and learning experiences.
+            </p>
+
+        </div>
+    </section>
+
+
+    <!-- CONTACT SECTION -->
+    <section class="section">
+        <div class="container contact-grid">
+
+            <!-- CONTACT INFORMATION -->
+            <div class="contact-info">
+
+                <p class="eyebrow">CONTACT INFORMATION</p>
+
+                <h2>I'd love to hear from you.</h2>
+
+                <p>
+                    Whether you have an opportunity, a question or simply
+                    want to connect professionally, feel free to reach out.
+                </p>
+
+
+                <!-- EMAIL -->
+                <div class="contact-item">
+                    <span>EMAIL</span>
+
+                    <a href="mailto:hopemosweu6@gmail.com">
+                        hopemosweu6@gmail.com
+                    </a>
+                </div>
+
+
+                <!-- LINKEDIN -->
+                <div class="contact-item">
+                    <span>LINKEDIN</span>
+
+                    <a href="https://www.linkedin.com/"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        Visit my LinkedIn profile ↗
+                    </a>
+                </div>
+
+
+                <!-- GITHUB -->
+                <div class="contact-item">
+                    <span>GITHUB</span>
+
+                    <a href="https://github.com/fbda24-033"
+                       target="_blank"
+                       rel="noopener noreferrer">
+                        github.com/fbda24-033 ↗
+                    </a>
+                </div>
+
+
+                <!-- LOCATION -->
+                <div class="contact-item">
+                    <span>LOCATION</span>
+                    <p>Gaborone, Botswana</p>
+                </div>
+
+            </div>
+
+
+            <!-- CONTACT FORM -->
+            <form class="contact-form" id="contactForm">
+
+                <label for="name">Full Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    placeholder="Enter your name"
+                    required
+                >
+
+
+                <label for="email">Email Address</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    placeholder="Enter your email"
+                    required
+                >
+
+
+                <label for="subject">Subject</label>
+
+                <input
+                    type="text"
+                    id="subject"
+                    name="subject"
+                    placeholder="What would you like to discuss?"
+                    required
+                >
+
+
+                <label for="message">Your Message</label>
+
+                <textarea
+                    id="message"
+                    name="message"
+                    rows="6"
+                    placeholder="Write your message here..."
+                    required
+                ></textarea>
+
+
+                <button type="submit" class="btn btn-primary">
+                    Prepare Email ↗
+                </button>
+
+
+                <p class="form-note" id="formStatus">
+                    The form will open your email application with your
+                    message prepared. It does not send messages directly.
+                </p>
+
+            </form>
+
+        </div>
+    </section>
+
+</main>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+    <div class="container">
+
+        <h3>Hope Mosweu<span>.</span></h3>
+
+        <p>Learning, analysing and building with purpose.</p>
+
+        <div class="footer-links">
+
+            <a href="https://www.linkedin.com/"
+               target="_blank"
+               rel="noopener noreferrer">
+                LinkedIn
+            </a>
+
+            <a href="https://github.com/fbda24-033"
+               target="_blank"
+               rel="noopener noreferrer">
+                GitHub
+            </a>
+
+            <a href="mailto:hopemosweu6@gmail.com">
+                Email
+            </a>
+
+        </div>
+
+        <p class="copyright">
+            © <span id="year"></span> Hope Mosweu.
+        </p>
+
+    </div>
+</footer>
+
+</body>
+</html>
